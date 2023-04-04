@@ -15,7 +15,7 @@
     "@next/font": "13.1.6",
     "@next/mdx": "^13.2.4",
     "@operandinc/sdk": "^5.0.18",
-    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.9",
     "@types/mdx": "^2.0.3",
     "@types/node": "18.11.18",
