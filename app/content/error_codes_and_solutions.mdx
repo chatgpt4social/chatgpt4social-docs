@@ -1,0 +1,203 @@
+In this article, we provide a list of error codes that you may encounter while using the ChatGPT for WhatsApp service and plugin, along with corresponding solutions. When you face an issue, you can find the error code and its solution here to quickly resolve the problem.
+
+```
+Note: When an error occurs, it is due to the ChatGPT website or API returning an error, not the plugin. 
+You can find the specific reasons and solutions for the errors on the OpenAI official website. 
+For more information about error solutions, please refer to OpenAI's official error codes - OpenAI API.
+```
+```
+Reminder: If you are a ChatGPT Plus user, we recommend you prioritize using the ChatGPT web version. 
+If not, please use the API source. The API source has already integrated the latest gpt3.5&gpt4.0 model. 
+```
+## 9.1 ChatGPT Errors
+### 9.1.1 CLOUDFLARE
+Error reasons:
+
+- DNS configuration error: To make Cloudflare services work properly, you need to set up DNS records correctly. If your DNS settings are incorrect, you might see an error message.
+- Firewall blocking: Cloudflare provides DDoS protection by blocking traffic from known malicious sources. However, if your firewall is blocking legitimate traffic, you may see an error message.
+- Server connection issues: If your server has connection issues, it may affect your ability to connect to Cloudflare services.
+- Service interruptions: In rare cases, Cloudflare may experience service interruptions, which can cause users to be unable to access their services.
+> Our suggestion: When a CLOUDFLARE error occurs, change or disable the proxy, refresh the chatgpt, and try again. If it still doesn't work, choose to use the API.
+
+### 9.1.2 ChatGPT error 429
+Error reasons:
+
+- Request frequency is too high, reaching API limits
+- The client is requesting too much data, exceeding API limits
+- Network issues causing packet loss or delays
+- Generally, it means that your requests to the ChatGPT service are being throttled, indicating that you have sent too many requests in a short period.
+> Our suggestion: Try again later!
+
+### ChatGPT error 401
+Error reasons:
+
+- Incorrect login credentials: If you attempt to access a page or resource that requires authentication, but you provide incorrect login credentials (such as username and password), the server will deny your request and return a 401 error.
+- Expired session: If you are already logged in but your session has expired, the server may return a 401 error.
+- Missing authentication information: If you try to access a resource that requires authentication but do not provide authentication information (such as a token or cookie), the server will deny your request and return a 401 error.
+- Server configuration issues: Some servers may be configured incorrectly and cannot properly handle authentication requests, resulting in a 401 error.
+> Our suggestion: Switch the AI source or regenerate the Key; check if your account is normal: https://platform.openai.com/playgroundahttps://platform.openai.com/playground
+
+### 9.1.3 ChatGPT error 401: invalid_api_key
+Error reasons:
+
+- The provided API key is invalid or expired
+- The API key is not authorized to access the requested resource
+- The request lacks the required authentication or authorization token
+> Our suggestion: Regenerate the Key; check if your account is normal: https://platform.openai.com/playgroundahttps://platform.openai.com/playground
+
+### 9.1.4 ChatGPT error 400:
+
+Error Reason:
+- The client's request is invalid or improperly formatted
+- The request is missing required parameters or data
+- The request has not been authenticated or authorized
+
+> Our Recommendation: Close the plugin and reopen it.
+
+### 9.1.5 ChatGPT error 400: context_length_exceeded
+
+Error Reason:
+- The context length in the request exceeds the limit of the API
+- The context information contained in the request is excessive and exceeds the maximum supported value
+- The API is unable to process the large context information
+
+> Our Recommendation: The ChatGPT API has limitations on the number of characters accessed, reduce the number of request characters.
+
+### 9.1.6 ChatGPT error 403:
+
+Error Reason:
+- The client's request is rejected by the server
+- The request is missing authentication or does not have permission to access the requested resource
+- The API key or access token is invalid or expired
+
+> Our Recommendation: Check the login status on the web version or refresh the page.
+
+### 9.1.7 ChatGPT error 500:
+
+Error Reason:
+- The server's internal error results in the request being unable to be completed
+- Code logic error or exception
+- Database connection error or data exception
+
+> Our Recommendation: Server-side error, go to https://status.openai.com to check if the status is available.
+
+### 9.1.8 ChatGPT error 404: undefined
+
+Error Reason:
+- The requested resource was not found or does not exist
+- The URL or file path in the request is incorrect
+- The requested resource has been moved or deleted
+
+> Our Recommendation: Close the plugin and reopen it.
+
+### 9.1.9 ChatGPT error 502:
+
+Error Reason:
+- The reverse proxy server cannot access the upstream server
+- The upstream server is down or unresponsive to the request
+- Network issues causing data loss or delay
+
+> Our Recommendation: None.
+
+## 9.2 API Errors
+### 9.2.1 GPT error: 429:
+
+Error Reason:
+- Rate Limiting: The server hosting the GPT model can be configured to limit the number of requests that can be sent in a given time period. If you send too many requests too quickly, the server may return a 429 error.
+- Network Connection Issues: If you have network connection issues, you may not be able to connect to the GPT server to make a request.
+- Server Issues: If the GPT server experiences issues or is temporarily unavailable, you may not be able to make a request.
+
+> Our Recommendation: Too many requests, try again later.
+
+### 9.2.2 GPT error: 400:
+
+Error Reason:
+- Typically indicates an issue with the request sent to the server.
+
+> Our Recommendation: Close the plugin and reopen it.
+
+### 9.2.3 GPT error: 404:
+
+Error Reason:
+- Typically indicates that the requested resource was not found.
+- The URL or file requested does not exist or has been moved or deleted.
+
+> Our Recommendation: Close the plugin and reopen it.
+
+### 9.2.4 GPT error: 401:
+
+Error Reason:
+- Invalid authentication
+- The API key provided is incorrect
+- You are using an API that must be a member of the organization to use
+
+> Our Recommendation: Try clearing your browser's cache and cookies and then retrying; check the Usage balance, if any, regenerate the API-Key.
+
+### 9.2.5 GPT error: 403
+Error reason:
+
+- Typically indicates an issue with authentication or authorization for the API request.
+- If you are certain the credentials are correct and still encountering this error, it may be that your account or access to the API has been restricted or revoked.
+> Our suggestion: Regenerate API-Key or try your request later.
+
+### 9.2.6 GPT error: 413
+Error reason:
+
+- The data volume of the request exceeds the limit of the server or API
+- The data volume included in the request is too large, exceeding the maximum value supported
+- The server or API cannot handle too large requests
+> Our suggestion: Reduce the number of words in the request.
+
+### 9.2.7 GPT error: 503
+Error reason:
+
+- The server is currently unable to handle the request, which may be due to maintenance or overload, etc.
+> Our suggestion: None
+
+### 9.2.8 GPT error: 524
+Error reason:
+
+- The server experienced a connection timeout while processing the request
+- The server is too busy to handle the request
+- Network issues causing data packets to be lost or delayed
+> Our suggestion: Check Openai status at https://status.openai.com
+
+### 9.2.9 GPT error: 502
+Error reason:
+
+- The reverse proxy server cannot access the upstream server
+- The upstream server is down or cannot respond to requests
+- Network issues causing data packets to be lost or delayed
+> Our suggestion: Check Openai status at https://status.openai.com
+
+### 9.2.10 GPT Error: 500
+Error Reason
+- Openai's server encountered an issue while processing your request.
+
+> Our Recommendation: Check the status of Openai at https://status.openai.com
+
+## 9.3 Other Errors
+### 9.3.1 Failed to Fetch
+Error Reason
+- Network Connection Issues: If there is an issue with your network connection, the client may not be able to connect to the server or API to retrieve data.
+- Server or API Issues: If there is an issue with the server or API or if it is temporarily unavailable, the client may not be able to retrieve data.
+- Authentication Issues: If the client is not properly authenticated to access the server or API, it may not be able to retrieve data.
+- Data Format Issues: If the data retrieved is in an incorrect format or contains errors, the client may not be able to process it correctly.
+> Our Recommendation: Resolve the network issue on your own.
+
+### 9.3.2 Network Error
+Error Reason
+- Network errors typically refer to issues that occur when accessing or using a network. These issues may include timeouts, server unavailability, network interruption, DNS errors, firewall restrictions, etc. Network errors can cause problems such as not being able to load webpages, applications not being able to connect to the network or communicate with other devices, etc.
+
+> Our Recommendation: Check if the network connection is normal, restart the router or adjust firewall settings to resolve the issue.
+
+### 9.3.3 UNAUTHORIZED
+Error Reason
+- This error usually occurs when you try to access a resource or perform an operation that is not authorized or permitted.
+
+> Our Recommendation: Clear the cache and cookies in your browser; or log in to the ChatGPT web version again.
+
+This chapter was completed by ChatGPT, Openai, and the developers.
+
+
+

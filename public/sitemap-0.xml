@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Fintroduction</loc><lastmod>2023-04-01T08:55:15.672Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Fhow_to_use</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Ffrequently_asked_questions</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Fbase_features</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Fpro_features</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Fmax_features</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Ferror_codes_and_solutions</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Fuser_feedback_and_community_support</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/docs/%2Fdocs%2Fprivacy_policy_and_terms_of_use</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000</loc><lastmod>2023-04-01T08:55:15.673Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>
