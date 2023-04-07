@@ -17,7 +17,7 @@ export const Logo: React.FC<{ className?: string; stroke?: string }> = ({
       <text
         x="37"
         y="65"
-        font-family="Verdana"
+        fontFamily="Verdana"
         font-size="45"
         font-weight="bold"
         fill="white"
